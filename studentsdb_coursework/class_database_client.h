@@ -669,6 +669,7 @@ public:
                         out.write((char*)students_to_file.getbyindex(i), sizeof(StudentsToFile));
                     }
                     out.close();
+                    Crypt("database.bin");
                     cout << "База данных успешно сохранена";
                     break;
                 }

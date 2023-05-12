@@ -26,15 +26,12 @@ public:
             months[1] = 29;
         }
         if ((_day < 1) || (_day > months[_month - 1])) {
-            std::cout << "11111" << std::endl;
             return 0;
         }
         if ((_month < 1) || (_month > 12)) {
-            std::cout << "2222";
             return 0;
         }
         if ((_year < 0) || (_year > 2023)) {
-            std::cout << "3333";
             return 0;
         }
         day = _day;
